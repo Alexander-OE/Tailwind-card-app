@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+/* for common clasess in each button*/
+    .btn {
+        @apply rounded-lg bg-indigo-500 focus: outline-none focus:ring uppercase tracking-wider font-semibold text-sm sm:text-base focus:ring-offset-2
+    }
+ 
+    .btn-primary {
+        @apply bg-indigo-500 hover: bg-indigo-400 mt-2 px-5 py-3 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600 sm:hover:bg-green-500 inline-block
+    }
+
+    .btn-secondary {
+        @apply bg-gray-300 hover: bg-gray-200 mt-2 focus:ring-gray-200 focus:ring-opacity-50 active:bg-gray-400 sm:hover:bg-green-500 text-gray-800
+    }
+
+}
