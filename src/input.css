@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+
 /* for common clasess in each button*/
+/* @layer {
+
     .btn {
-        @apply rounded-lg bg-indigo-500 focus: outline-none focus:ring uppercase tracking-wider font-semibold text-sm sm:text-base focus:ring-offset-2
+        @apply rounded-lg bg-indigo-500 focus: outline-none focus:ring uppercase tracking-wider font-semibold text-sm sm:text-base 
     }
  
     .btn-primary {
@@ -16,4 +18,4 @@
         @apply bg-gray-300 hover: bg-gray-200 mt-2 focus:ring-gray-200 focus:ring-opacity-50 active:bg-gray-400 sm:hover:bg-green-500 text-gray-800
     }
 
-}
+} */
